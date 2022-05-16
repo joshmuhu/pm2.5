@@ -21,4 +21,4 @@ This satellite monitors various pollutants in the atmosphere. For each pollutant
 Applying the different classification algorithims and evaluating their performances
 
 
-Data Source Credit: Zindi africa 
+<b>Data Source Credit:</b> Zindi africa (https://zindi.africa/competitions)
