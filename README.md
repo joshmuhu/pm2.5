@@ -14,9 +14,9 @@ The objective of this challenge is to predict PM2.5 particulate matter concentra
 
 1. <b>Ground-based air quality sensors.</b>
 These measure the target variable (PM2.5 particle concentration). In addition to the target column (which is the daily mean concentration) there are also columns for minimum and maximum readings on that day, the variance of the readings and the total number (count) of sensor readings used to compute the target value. This data is only provided for the train set - you must predict the target variable for the test set.
-2. The Global Forecast System (GFS) for weather data.
+2. <b>The Global Forecast System (GFS)</b> for weather data.
 Humidity, temperature and wind speed, which can be used as inputs for your model.
-3. The Sentinel 5P satellite.
+3. <b>The Sentinel 5P</b> satellite.
 This satellite monitors various pollutants in the atmosphere. For each pollutant, we queried the offline Level 3 (L3) datasets available in Google Earth Engine (you can read more about the individual products here: https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p). For a given pollutant, for example NO2, we provide all data from the Sentinel 5P dataset for that pollutant. This includes the key measurements like NO2_column_number_density (a measure of NO2 concentration) as well as metadata like the satellite altitude. We recommend that you focus on the key measurements, either the column_number_density or the tropospheric_X_column_number_density (which measures density closer to Earth’s surface).
 Applying the different classification algorithims and evaluating their performances
 
