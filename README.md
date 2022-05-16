@@ -12,7 +12,7 @@ Comparing the following regression methods
 
 The objective of this challenge is to predict PM2.5 particulate matter concentration in the air every day for each city. PM2.5 refers to atmospheric particulate matter that have a diameter of less than 2.5 micrometers and is one of the most harmful air pollutants. PM2.5 is a common measure of air quality that normally requires ground-based sensors to measure. The data covers the last three months, spanning hundreds of cities across the globe. The data comes from 3 main sources :
 
-1. Ground-based air quality sensors.
+1. <b>Ground-based air quality sensors.</b>
 These measure the target variable (PM2.5 particle concentration). In addition to the target column (which is the daily mean concentration) there are also columns for minimum and maximum readings on that day, the variance of the readings and the total number (count) of sensor readings used to compute the target value. This data is only provided for the train set - you must predict the target variable for the test set.
 2. The Global Forecast System (GFS) for weather data.
 Humidity, temperature and wind speed, which can be used as inputs for your model.
