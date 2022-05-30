@@ -1,0 +1,15 @@
+No,Income,Age,Student,Credit_rating,Buys-land
+1,high,<30,no,fair,no
+2,medium,>40,no,fair,yes
+3,high,<30,no,excellent,no
+4,high,31-40,no,fair,yes
+5,low,31-40,yes,excellent,yes
+6,medium,<30,no,fair,no
+7,low,>40,yes,fair,yes
+8,low,>40,yes,excellent,no
+9,low,<30,yes,fair,yes
+10,medium,>40,yes,fair,yes
+11,medium,<30,yes,excellent,yes
+12,medium,31-40,no,excellent,yes
+13,high,31-40,yes,fair,yes
+14,medium,>40,no,excellent,no
